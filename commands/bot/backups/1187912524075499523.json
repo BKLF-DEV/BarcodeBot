@@ -1,0 +1,1270 @@
+{
+    "name": "🔍 Oauth2-Bot #Shop",
+    "region": "deprecated",
+    "verificationLevel": "LOW",
+    "explicitContentFilter": "ALL_MEMBERS",
+    "defaultMessageNotifications": "MENTIONS",
+    "afk": null,
+    "widget": {
+        "enabled": false,
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "👋 • [ IMPORANT ]",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 3072,
+                        "deny": 0
+                    },
+                    {
+                        "roleName": "👨‍👧‍👧┃Membres",
+                        "allow": 66561,
+                        "deny": 288832
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1048640
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "📜┃règlement",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "👋 • [ IMPORANT ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "👨‍👧‍👧┃Membres",
+                                "allow": 66561,
+                                "deny": 288832
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "📢｜annonce",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "👋 • [ IMPORANT ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "👨‍👧‍👧┃Membres",
+                                "allow": 66561,
+                                "deny": 288832
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🔑｜vérification",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "👋 • [ IMPORANT ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "👨‍👧‍👧┃Membres",
+                                "allow": 66561,
+                                "deny": 288832
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🎁｜free-membres",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "👋 • [ IMPORANT ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "👨‍👧‍👧┃Membres",
+                                "allow": 66561,
+                                "deny": 288832
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🎁｜rewards",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "👋 • [ IMPORANT ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "👨‍👧‍👧┃Membres",
+                                "allow": 66561,
+                                "deny": 288832
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🛒｜shop",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "👋 • [ IMPORANT ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "👨‍👧‍👧┃Membres",
+                                "allow": 66561,
+                                "deny": 288832
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "⛎｜open-source",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "👋 • [ IMPORANT ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "👨‍👧‍👧┃Membres",
+                                "allow": 66561,
+                                "deny": 288832
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🎊｜giveaways",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "👋 • [ IMPORANT ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "👨‍👧‍👧┃Membres",
+                                "allow": 66561,
+                                "deny": 288832
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 3072,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "🎆 • [ Oauth2-Bot ]",
+                "permissions": [
+                    {
+                        "roleName": "👨‍👧‍👧┃Membres",
+                        "allow": 66560,
+                        "deny": 190528
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1048640
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 1024,
+                        "deny": 2048
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "🎆｜oauth2-bot",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🎆 • [ Oauth2-Bot ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "👨‍👧‍👧┃Membres",
+                                "allow": 66560,
+                                "deny": 190528
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 2048
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🎩｜drop-codes",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🎆 • [ Oauth2-Bot ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "👨‍👧‍👧┃Membres",
+                                "allow": 1024,
+                                "deny": 256064
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🕜｜update",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🎆 • [ Oauth2-Bot ]",
+                        "topic": "",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "👨‍👧‍👧┃Membres",
+                                "allow": 66560,
+                                "deny": 190528
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🔎｜preview-bots",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🎆 • [ Oauth2-Bot ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "👨‍👧‍👧┃Membres",
+                                "allow": 66560,
+                                "deny": 190528
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 2048
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "🟢 •  [ vouch ]",
+                "permissions": [
+                    {
+                        "roleName": "👨‍👧‍👧┃Membres",
+                        "allow": 66560,
+                        "deny": 141376
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1048640
+                    },
+                    {
+                        "roleName": "🎩┃Clients",
+                        "allow": 0,
+                        "deny": 0
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 1024,
+                        "deny": 2048
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "🟢｜avis",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🟢 •  [ vouch ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🤑┃Claim Reward",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "🎩┃Clients",
+                                "allow": 101440,
+                                "deny": 8192
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "👨‍👧‍👧┃Membres",
+                                "allow": 66560,
+                                "deny": 141376
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🔍｜proofs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🟢 •  [ vouch ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🎩┃Clients",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "👨‍👧‍👧┃Membres",
+                                "allow": 66560,
+                                "deny": 141376
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "💰 • [ help & purchase ]",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 1024,
+                        "deny": 2048
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1048640
+                    },
+                    {
+                        "roleName": "👨‍👧‍👧┃Membres",
+                        "allow": 66560,
+                        "deny": 141376
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "🎫｜open-ticket",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💰 • [ help & purchase ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "👨‍👧‍👧┃Membres",
+                                "allow": 66560,
+                                "deny": 141376
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "ticket-_edwar__",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💰 • [ help & purchase ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "👨‍👧‍👧┃Staff",
+                                "allow": 35840,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "ticket-ykdanslastrite",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💰 • [ help & purchase ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "👨‍👧‍👧┃Staff",
+                                "allow": 35840,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "ticket-bubu74160",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💰 • [ help & purchase ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "👨‍👧‍👧┃Staff",
+                                "allow": 35840,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "ticket-vuitton33",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💰 • [ help & purchase ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "👨‍👧‍👧┃Staff",
+                                "allow": 35840,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "ticket-aurel2018",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💰 • [ help & purchase ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "👨‍👧‍👧┃Staff",
+                                "allow": 35840,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "ticket-spartianbynightfox",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💰 • [ help & purchase ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "👨‍👧‍👧┃Staff",
+                                "allow": 35840,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "ticket-sk_obontop",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💰 • [ help & purchase ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "👨‍👧‍👧┃Staff",
+                                "allow": 35840,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "ticket-_ariso_",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💰 • [ help & purchase ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "👨‍👧‍👧┃Staff",
+                                "allow": 35840,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "ticket-dscdshop",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💰 • [ help & purchase ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "👨‍👧‍👧┃Staff",
+                                "allow": 35840,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "ticket-lvqh_",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💰 • [ help & purchase ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "👨‍👧‍👧┃Staff",
+                                "allow": 35840,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "ticket-cartel2495",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💰 • [ help & purchase ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "👨‍👧‍👧┃Staff",
+                                "allow": 35840,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "ticket-_ariso_",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💰 • [ help & purchase ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "👨‍👧‍👧┃Staff",
+                                "allow": 35840,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "ticket-trip_exchanger",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💰 • [ help & purchase ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "👨‍👧‍👧┃Staff",
+                                "allow": 35840,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "🌏 • [ community ]",
+                "permissions": [
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1048640
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 1024,
+                        "deny": 2048
+                    },
+                    {
+                        "roleName": "👨‍👧‍👧┃Membres",
+                        "allow": 363585,
+                        "deny": 8192
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "voice",
+                        "name": "général",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "🌏 • [ community ]",
+                        "permissions": [
+                            {
+                                "roleName": "👨‍👧‍👧┃Membres",
+                                "allow": 37064513,
+                                "deny": 8192
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "name": "💬｜chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🌏 • [ community ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "👨‍👧‍👧┃Membres",
+                                "allow": 363584,
+                                "deny": 8192
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🤖｜cmd",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🌏 • [ community ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "👨‍👧‍👧┃Membres",
+                                "allow": 363584,
+                                "deny": 8192
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🔑｜accès-joinall",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🌏 • [ community ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "👨‍👧‍👧┃Membres",
+                                "allow": 361537,
+                                "deny": 10240
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🚀｜joinall",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🌏 • [ community ]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "👨‍👧‍👧┃Membres",
+                                "allow": 361536,
+                                "deny": 10240
+                            },
+                            {
+                                "roleName": "⛎┃Oauth2-Bot",
+                                "allow": 68608,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "Logs",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1024
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1048640
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "logs-antiraid",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "logs-modération",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "logs-serveur",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "logs-messages",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            }
+        ],
+        "others": [
+            {
+                "type": "text",
+                "name": "membres",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1048640
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 262144,
+                        "deny": 1024
+                    }
+                ],
+                "messages": [],
+                "isNews": false
+            },
+            {
+                "type": "text",
+                "name": "commande",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1024
+                    }
+                ],
+                "messages": [],
+                "isNews": false
+            }
+        ]
+    },
+    "roles": [
+        {
+            "name": "👑",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 2146959359,
+            "mentionable": false,
+            "position": 22,
+            "isEveryone": false
+        },
+        {
+            "name": "🔑┃Nos Bots",
+            "color": "#b000f1",
+            "hoist": true,
+            "permissions": 8,
+            "mentionable": false,
+            "position": 21,
+            "isEveryone": false
+        },
+        {
+            "name": "🤖┃Bots",
+            "color": "#00bb07",
+            "hoist": true,
+            "permissions": 8,
+            "mentionable": false,
+            "position": 20,
+            "isEveryone": false
+        },
+        {
+            "name": "👑┃Owner",
+            "color": "#080000",
+            "hoist": true,
+            "permissions": 8,
+            "mentionable": false,
+            "position": 19,
+            "isEveryone": false
+        },
+        {
+            "name": "🎩┃Clients",
+            "color": "#ff8000",
+            "hoist": true,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 18,
+            "isEveryone": false
+        },
+        {
+            "name": "⛎┃Oauth2-Bot",
+            "color": "#9b59b6",
+            "hoist": true,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 17,
+            "isEveryone": false
+        },
+        {
+            "name": "🤑┃Claim Reward",
+            "color": "#f1c40f",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 16,
+            "isEveryone": false
+        },
+        {
+            "name": "👨‍👧‍👧┃Membres",
+            "color": "#3498db",
+            "hoist": true,
+            "permissions": 3146241,
+            "mentionable": false,
+            "position": 15,
+            "isEveryone": false
+        },
+        {
+            "name": "✅┃Vérifier",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 14,
+            "isEveryone": false
+        },
+        {
+            "name": "muet",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 5,
+            "isEveryone": false
+        },
+        {
+            "name": "👨‍👧‍👧┃Staff",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 4,
+            "isEveryone": false
+        },
+        {
+            "name": "admin",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 8,
+            "mentionable": false,
+            "position": 3,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 3211776,
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "createdTimestamp": 1703290816087,
+    "guildID": "1153726635028271247",
+    "id": "1187912524075499523",
+    "iconURL": "https://cdn.discordapp.com/icons/1153726635028271247/27992a4dd72c7ced3d51298740da5046.webp"
+}

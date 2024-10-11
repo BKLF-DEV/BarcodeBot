@@ -1,0 +1,12 @@
+{
+    "token": "MTE2NjM5MzExNTg4MDQ3NjcyMg.GgX0px.3QPqwsvLkdUwEdNqwSABhmyJGamNJu6OQJ_pcI",
+    "color": "0000FF",
+    "prefix": "!",
+    "name": "Barcode",
+    "defaultjoinmessage": "{user} vient de rejoindre. Il a été invité par **{inviter:name}** qui a désormais **{invite} invitations** !",
+    "defaultleavemessage": "{user} vient de quitter. Il avais été invité par **{inviter:name}** qui a désormais **{invite} invitations** ",
+    "defaultLevelmessage": "**{user}** vient de passer au level **{level}** bravo à lui !",
+    "owner": [
+        "1126215462468980808"
+    ]
+}

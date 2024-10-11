@@ -1,0 +1,408 @@
+{
+    "name": "test",
+    "region": "deprecated",
+    "verificationLevel": "LOW",
+    "explicitContentFilter": "ALL_MEMBERS",
+    "defaultMessageNotifications": "MENTIONS",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "cmd",
+                "permissions": [
+                    {
+                        "roleName": "muee",
+                        "allow": 0,
+                        "deny": 1048640
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "⚙•crow-cmd",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "cmd",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muee",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "⚙•auth-cmd",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "cmd",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "muee",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "Polar-SB",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "nouveau rôle",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "b tg",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "[+] Manager",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Are You A Robot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": 0,
+                                "deny": 2112
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "logs",
+                "permissions": [
+                    {
+                        "roleName": "muee",
+                        "allow": 0,
+                        "deny": 1048640
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "🦅•crow-logs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "nouveau rôle",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "muee",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Polar-SB",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "b tg",
+                                "allow": 0,
+                                "deny": 2112
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "📢•joinall-logs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "muee",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "nouveau rôle",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "b tg",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Polar-SB",
+                                "allow": 0,
+                                "deny": 2112
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "👥•auth-logs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Polar-SB",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "b tg",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "nouveau rôle",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "muee",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "📧•auth-backup",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muee",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            }
+        ],
+        "others": [
+            {
+                "type": "text",
+                "name": "📢•rappel",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "Tickets",
+                        "allow": 0,
+                        "deny": 2112
+                    },
+                    {
+                        "roleName": "muee",
+                        "allow": 0,
+                        "deny": 2112
+                    },
+                    {
+                        "roleName": "Polar-SB",
+                        "allow": 0,
+                        "deny": 2112
+                    },
+                    {
+                        "roleName": "b tg",
+                        "allow": 0,
+                        "deny": 2112
+                    },
+                    {
+                        "roleName": "nouveau rôle",
+                        "allow": 0,
+                        "deny": 2112
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 2112
+                    }
+                ],
+                "messages": [],
+                "isNews": false
+            },
+            {
+                "type": "text",
+                "name": "📢•auth-rappel",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "b tg",
+                        "allow": 0,
+                        "deny": 2112
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 2112
+                    },
+                    {
+                        "roleName": "Tickets",
+                        "allow": 0,
+                        "deny": 2112
+                    },
+                    {
+                        "roleName": "nouveau rôle",
+                        "allow": 0,
+                        "deny": 2112
+                    },
+                    {
+                        "roleName": "Polar-SB",
+                        "allow": 0,
+                        "deny": 2112
+                    },
+                    {
+                        "roleName": "muee",
+                        "allow": 0,
+                        "deny": 1050688
+                    }
+                ],
+                "messages": [],
+                "isNews": false
+            }
+        ]
+    },
+    "roles": [
+        {
+            "name": "b tg",
+            "color": "#f1c40f",
+            "hoist": false,
+            "permissions": 8,
+            "mentionable": false,
+            "position": 10,
+            "isEveryone": false
+        },
+        {
+            "name": "muee",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 8,
+            "isEveryone": false
+        },
+        {
+            "name": "nouveau rôle",
+            "color": "#1abc9c",
+            "hoist": false,
+            "permissions": 8,
+            "mentionable": false,
+            "position": 7,
+            "isEveryone": false
+        },
+        {
+            "name": "Tickets",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 2056,
+            "mentionable": false,
+            "position": 6,
+            "isEveryone": false
+        },
+        {
+            "name": "non vérifié",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 4,
+            "isEveryone": false
+        },
+        {
+            "name": "vérifié",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 3,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 67423296,
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "createdTimestamp": 1692998666140,
+    "guildID": "1127751662048649326",
+    "id": "1144744118384197640",
+    "iconURL": "https://cdn.discordapp.com/icons/1127751662048649326/249ca760aafba49ae6d13c937a439847.webp"
+}

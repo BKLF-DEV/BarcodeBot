@@ -1,0 +1,70 @@
+{
+    "name": "Raid By Noxtro",
+    "region": "deprecated",
+    "verificationLevel": "NONE",
+    "explicitContentFilter": "DISABLED",
+    "defaultMessageNotifications": "ALL",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "Salons textuels",
+                "permissions": [
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "général",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Salons textuels",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            }
+        ],
+        "others": []
+    },
+    "roles": [
+        {
+            "name": "muet",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 1,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 104320577,
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "createdTimestamp": 1692393826615,
+    "guildID": "1142206204609826836",
+    "id": "1142207237545132043"
+}

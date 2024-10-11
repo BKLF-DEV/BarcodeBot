@@ -1,0 +1,73 @@
+{
+    "name": "Emoji-Bot",
+    "region": "deprecated",
+    "verificationLevel": "NONE",
+    "explicitContentFilter": "DISABLED",
+    "defaultMessageNotifications": "ALL",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [],
+        "others": [
+            {
+                "type": "text",
+                "name": "général",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 1024,
+                        "deny": 2048
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    }
+                ],
+                "messages": [],
+                "isNews": false
+            }
+        ]
+    },
+    "roles": [
+        {
+            "name": "Confiance",
+            "color": "#f1c40f",
+            "hoist": false,
+            "permissions": 8,
+            "mentionable": false,
+            "position": 7,
+            "isEveryone": false
+        },
+        {
+            "name": "muet",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 2,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 67554368,
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "createdTimestamp": 1692050671862,
+    "guildID": "1134869898900811809",
+    "id": "1140767942192005128",
+    "iconURL": "https://cdn.discordapp.com/icons/1134869898900811809/1e0911a4a49efd906cef73561090be99.webp"
+}

@@ -1,0 +1,928 @@
+{
+    "name": "🍭・GiftLand # FreeNsfw 🔞",
+    "region": "deprecated",
+    "verificationLevel": "NONE",
+    "explicitContentFilter": "DISABLED",
+    "defaultMessageNotifications": "ALL",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "🔞┃perk・booster",
+                "permissions": [
+                    {
+                        "roleName": "🔞・Not Access",
+                        "allow": 66560,
+                        "deny": 10304
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "🔞┃booster・info",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔞┃perk・booster",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 66560,
+                                "deny": 10304
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "🔞・Not Access",
+                                "allow": 66560,
+                                "deny": 10304
+                            },
+                            {
+                                "roleName": "🔞・Sex Girl",
+                                "allow": 134144,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "💋┃・ Acces Nsfw",
+                "permissions": [
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 66560,
+                        "deny": 10304
+                    },
+                    {
+                        "roleName": "🔞・Not Access",
+                        "allow": 66560,
+                        "deny": 10304
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "🔞┃acces・nsfw",
+                        "nsfw": true,
+                        "rateLimitPerUser": 0,
+                        "parent": "💋┃・ Acces Nsfw",
+                        "topic": "",
+                        "permissions": [
+                            {
+                                "roleName": "admin",
+                                "allow": 0,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 66560,
+                                "deny": 10304
+                            },
+                            {
+                                "roleName": "🔞・Not Access",
+                                "allow": 66560,
+                                "deny": 10304
+                            },
+                            {
+                                "roleName": "🔞・Sex Girl",
+                                "allow": 133120,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🔞┃preview・nsfw",
+                        "nsfw": true,
+                        "rateLimitPerUser": 0,
+                        "parent": "💋┃・ Acces Nsfw",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "🔞・Sex Girl",
+                                "allow": 805829713,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 66560,
+                                "deny": 10304
+                            },
+                            {
+                                "roleName": "admin",
+                                "allow": 0,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "🔞・Not Access",
+                                "allow": 66560,
+                                "deny": 10304
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "🔎┃research・leak",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 1024,
+                        "deny": 75840
+                    },
+                    {
+                        "roleName": "🔞・Not Access",
+                        "allow": 1024,
+                        "deny": 75840
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "🔎┃research・leak",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔎┃research・leak",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🔞・Not Access",
+                                "allow": 1024,
+                                "deny": 75840
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 75840
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "🔞┃free・nsfw",
+                "permissions": [
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 1024,
+                        "deny": 75840
+                    },
+                    {
+                        "roleName": "🔞・Not Access",
+                        "allow": 1024,
+                        "deny": 10304
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "🎥┃video・access",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔞┃free・nsfw",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🔞・Not Access",
+                                "allow": 1024,
+                                "deny": 10304
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 75840
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🍒┃boobs・access",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔞┃free・nsfw",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🔞・Not Access",
+                                "allow": 1024,
+                                "deny": 10304
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 75840
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🌞┃latina・access",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔞┃free・nsfw",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 75840
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "🔞・Not Access",
+                                "allow": 1024,
+                                "deny": 10304
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🐍┃asian・access",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔞┃free・nsfw",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 75840
+                            },
+                            {
+                                "roleName": "🔞・Not Access",
+                                "allow": 1024,
+                                "deny": 10304
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🙎┃solo・access",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔞┃free・nsfw",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🔞・Not Access",
+                                "allow": 1024,
+                                "deny": 10304
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 75840
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🍑┃ass・access",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔞┃free・nsfw",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 75840
+                            },
+                            {
+                                "roleName": "🔞・Not Access",
+                                "allow": 1024,
+                                "deny": 10304
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🌴┃homemade",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔞┃free・nsfw",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "🔞・Not Access",
+                                "allow": 1024,
+                                "deny": 10304
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 75840
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🔎┃find・name",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔞┃free・nsfw",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "🔞・Not Access",
+                                "allow": 1024,
+                                "deny": 10304
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 75840
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "💎︱CATEGORIES BOOSTER",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 1024,
+                        "deny": 75840
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    },
+                    {
+                        "roleName": "🔞・Not Access",
+                        "allow": 1024,
+                        "deny": 75840
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "💎┃booster・booster",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💎︱CATEGORIES BOOSTER",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 75840
+                            },
+                            {
+                                "roleName": "🔞・Not Access",
+                                "allow": 1024,
+                                "deny": 75840
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "💎┃blowjob・booster",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💎︱CATEGORIES BOOSTER",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "🔞・Not Access",
+                                "allow": 1024,
+                                "deny": 75840
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 75840
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "💎┃lasbian・booster",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💎︱CATEGORIES BOOSTER",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🔞・Not Access",
+                                "allow": 1024,
+                                "deny": 75840
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 75840
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "💎┃doggy・booster",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💎︱CATEGORIES BOOSTER",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 75840
+                            },
+                            {
+                                "roleName": "🔞・Not Access",
+                                "allow": 1024,
+                                "deny": 75840
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "💎┃boobs・booster",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💎︱CATEGORIES BOOSTER",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "🔞・Not Access",
+                                "allow": 1024,
+                                "deny": 75840
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 75840
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "💎┃group・booster",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💎︱CATEGORIES BOOSTER",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🔞・Not Access",
+                                "allow": 1024,
+                                "deny": 75840
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 75840
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "💎┃asmr・booster",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💎︱CATEGORIES BOOSTER",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "🔞・Not Access",
+                                "allow": 1024,
+                                "deny": 75840
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 75840
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "💎┃ass・booster",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💎︱CATEGORIES BOOSTER",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 75840
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "🔞・Not Access",
+                                "allow": 1024,
+                                "deny": 75840
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "💎┃anal・booster",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💎︱CATEGORIES BOOSTER",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 75840
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "🔞・Not Access",
+                                "allow": 1024,
+                                "deny": 75840
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "💎┃feet・booster",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💎︱CATEGORIES BOOSTER",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "🔞・Not Access",
+                                "allow": 1024,
+                                "deny": 75840
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 75840
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "💎┃cum・booster",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💎︱CATEGORIES BOOSTER",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "🔞・Not Access",
+                                "allow": 1024,
+                                "deny": 75840
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 75840
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            }
+        ],
+        "others": [
+            {
+                "type": "voice",
+                "name": "🎥┃sexcam・access",
+                "bitrate": 64000,
+                "userLimit": 0,
+                "parent": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 1024,
+                        "deny": 3147777
+                    },
+                    {
+                        "roleName": "🔞・Not Access",
+                        "allow": 1024,
+                        "deny": 1050624
+                    }
+                ]
+            },
+            {
+                "type": "text",
+                "name": "prv",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1024
+                    }
+                ],
+                "messages": [],
+                "isNews": false
+            },
+            {
+                "type": "text",
+                "name": "a4a",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1024
+                    }
+                ],
+                "messages": [],
+                "isNews": false
+            },
+            {
+                "type": "text",
+                "name": "a4a",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "a4a",
+                        "allow": 3072,
+                        "deny": 65536
+                    },
+                    {
+                        "roleName": "admin",
+                        "allow": 65536,
+                        "deny": 0
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1024
+                    }
+                ],
+                "messages": [],
+                "isNews": false
+            }
+        ]
+    },
+    "roles": [
+        {
+            "name": "admin",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 2146959351,
+            "mentionable": false,
+            "position": 22,
+            "isEveryone": false
+        },
+        {
+            "name": "🔞・Sex Girl",
+            "color": "#f80000",
+            "hoist": true,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 18,
+            "isEveryone": false
+        },
+        {
+            "name": "🔞・Not Access",
+            "color": "#3498db",
+            "hoist": true,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 17,
+            "isEveryone": false
+        },
+        {
+            "name": "a4a",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 15,
+            "isEveryone": false
+        },
+        {
+            "name": "🤖・Bot",
+            "color": "#2ecc71",
+            "hoist": true,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 14,
+            "isEveryone": false
+        },
+        {
+            "name": "muet",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 13,
+            "isEveryone": false
+        },
+        {
+            "name": "nouveau rôle",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 8,
+            "mentionable": false,
+            "position": 6,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 104320577,
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "createdTimestamp": 1697826336066,
+    "guildID": "1153616001473204264",
+    "id": "1164992833665499143",
+    "iconURL": "https://cdn.discordapp.com/icons/1153616001473204264/1818dd934d0c8ab1be7cc7010be04ca9.webp"
+}

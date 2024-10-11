@@ -1,0 +1,2191 @@
+{
+    "name": "Oauth2-Bot",
+    "region": "deprecated",
+    "verificationLevel": "NONE",
+    "explicitContentFilter": "DISABLED",
+    "defaultMessageNotifications": "MENTIONS",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "owner",
+                "permissions": [
+                    {
+                        "roleName": "ServerStats",
+                        "allow": 1049600,
+                        "deny": 0
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1049600
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "oauth2",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "owner",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "ServerStats",
+                                "allow": 1049600,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1049600
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "verify",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "owner",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "Membre",
+                                "allow": 1048576,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "owner",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "owner",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "ServerStats",
+                                "allow": 1049600,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1049600
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "logs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "owner",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "pour-kaido",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "owner",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1049600
+                            },
+                            {
+                                "roleName": "ServerStats",
+                                "allow": 1049600,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "accueil",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1024
+                    },
+                    {
+                        "roleName": "Membre",
+                        "allow": 1049600,
+                        "deny": 0
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "📜•𝐫è𝐠𝐥𝐞𝐦𝐞𝐧𝐭",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "accueil",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "Vérification",
+                                "allow": 66560,
+                                "deny": 805763153
+                            },
+                            {
+                                "roleName": "Membre",
+                                "allow": 1115136,
+                                "deny": 456768
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "📢•𝐀𝐧𝐧𝐨𝐧𝐜𝐞",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "accueil",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 3072
+                            },
+                            {
+                                "roleName": "Membre",
+                                "allow": 66560,
+                                "deny": 805763153
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🎥•𝐯𝐢𝐝𝐞𝐨",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "accueil",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Choppa Ticket",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🤝amis des owner",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Client-SB",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Giveaways-Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🤖bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "👑",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "NQN",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🤖 • Notif Nouveau Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 3136
+                            },
+                            {
+                                "roleName": "Aboner Youtube",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "💶client",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🎥 • Notif Vidéo",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "――[ 𝐍𝐨𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧]――",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🤝 • Notif Partenariat",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Staff Ticket",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "ServerStats",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "[+] Celestial Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Nos Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "DraftBot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Client_Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "Vérification-Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Uptime Robot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "carl-bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "👑owner",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Membre",
+                                "allow": 1049600,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Vérification",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Dévelopeur Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Server Booster",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "repl",
+                                "allow": 0,
+                                "deny": 2112
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "💹•𝐔𝐩𝐝𝐚𝐭𝐞",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "accueil",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "Membre",
+                                "allow": 1115136,
+                                "deny": 403520
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🟢•𝐬𝐭𝐚𝐭𝐮𝐞-𝐛𝐨𝐭",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "accueil",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "Membre",
+                                "allow": 1049600,
+                                "deny": 2048
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🎁•𝐆𝐢𝐯𝐞𝐚𝐰𝐚𝐲𝐬",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "accueil",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "Membre",
+                                "allow": 1024,
+                                "deny": 452672
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "💎•𝐁𝐨𝐨𝐬𝐭𝐬",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "accueil",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "Membre",
+                                "allow": 1049600,
+                                "deny": 2048
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🎭•𝐫ô𝐥𝐞",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "accueil",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "Membre",
+                                "allow": 1049600,
+                                "deny": 805763153
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "📊•𝐒𝐨𝐧𝐝𝐚𝐠𝐞",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "accueil",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "Membre",
+                                "allow": 1115136,
+                                "deny": 805763153
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "📭•𝐬𝐮𝐠𝐠𝐞𝐬𝐭𝐢𝐨𝐧",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "accueil",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "DraftBot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 3136
+                            },
+                            {
+                                "roleName": "👑",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Membre",
+                                "allow": 1049600,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Client_Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Uptime Robot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🤝 • Notif Partenariat",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Giveaways-Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Nos Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "――[ 𝐍𝐨𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧]――",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🎥 • Notif Vidéo",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Aboner Youtube",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "NQN",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🤖bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Dévelopeur Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "carl-bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Client-SB",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🤖 • Notif Nouveau Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "👑owner",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "[+] Celestial Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🤝amis des owner",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Choppa Ticket",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "ServerStats",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Vérification",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Staff Ticket",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "💶client",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Vérification-Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Server Booster",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "repl",
+                                "allow": 0,
+                                "deny": 2112
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🤝•𝐩𝐚𝐫𝐭𝐞𝐧𝐚𝐫𝐢𝐚𝐭",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "accueil",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "Membre",
+                                "allow": 1049600,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "general",
+                "permissions": [
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    },
+                    {
+                        "roleName": "Membre",
+                        "allow": 1049600,
+                        "deny": 0
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1024
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "🛬•𝐚𝐫𝐫𝐢𝐯é𝐞",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "general",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 3072
+                            },
+                            {
+                                "roleName": "Membre",
+                                "allow": 66560,
+                                "deny": 805763153
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "voice",
+                        "name": "aide",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "general",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Vérification",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "Membre",
+                                "allow": 36701952,
+                                "deny": 0
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "name": "🗣•𝐠é𝐧é𝐫𝐚𝐥",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "general",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Uptime Robot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "💶client",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "🤝 • Notif Partenariat",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "👑owner",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "carl-bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🤖 • Notif Nouveau Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Giveaways-Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Client-SB",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "――[ 𝐍𝐨𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧]――",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 445504
+                            },
+                            {
+                                "roleName": "Membre",
+                                "allow": 33792,
+                                "deny": 805730385
+                            },
+                            {
+                                "roleName": "DraftBot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Vérification",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🤝amis des owner",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🎥 • Notif Vidéo",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Vérification-Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Nos Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Dévelopeur Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🤖bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Choppa Ticket",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "[+] Celestial Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "👑",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "NQN",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Staff Ticket",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Aboner Youtube",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Server Booster",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Client_Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "ServerStats",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "repl",
+                                "allow": 0,
+                                "deny": 2112
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "voice",
+                        "name": "💳•𝐒𝐞𝐥𝐟 𝐂𝐨𝐧𝐧𝐞𝐜𝐭",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "general",
+                        "permissions": [
+                            {
+                                "roleName": "Membre",
+                                "allow": 1049600,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "name": "🛠•𝐚𝐯𝐢𝐬-𝐬𝐮𝐩𝐩𝐨𝐫𝐭",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "general",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "👑owner",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Client-SB",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Membre",
+                                "allow": 1049600,
+                                "deny": 805468241
+                            },
+                            {
+                                "roleName": "Nos Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Uptime Robot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "[+] Celestial Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "NQN",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "💶client",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "👑",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "DraftBot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Dévelopeur Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🤖bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Client_Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🎥 • Notif Vidéo",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Staff Ticket",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 3136
+                            },
+                            {
+                                "roleName": "Aboner Youtube",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Server Booster",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "carl-bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "ServerStats",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🤝 • Notif Partenariat",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Choppa Ticket",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Giveaways-Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Vérification",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🤝amis des owner",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Vérification-Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "――[ 𝐍𝐨𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧]――",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🤖 • Notif Nouveau Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "repl",
+                                "allow": 0,
+                                "deny": 2112
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "𝐀𝐯𝐢𝐬-𝐜𝐥𝐢𝐞𝐧𝐭",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "general",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Aboner Youtube",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Vérification",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "――[ 𝐍𝐨𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧]――",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Membre",
+                                "allow": 1115136,
+                                "deny": 456768
+                            },
+                            {
+                                "roleName": "Vérification-Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Nos Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "DraftBot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🤝amis des owner",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Staff Ticket",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "NQN",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🎥 • Notif Vidéo",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "👑owner",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🤖 • Notif Nouveau Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Client-SB",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Uptime Robot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🤖bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🤝 • Notif Partenariat",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "👑",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Giveaways-Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Choppa Ticket",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "ServerStats",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "[+] Celestial Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Server Booster",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "carl-bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 3136
+                            },
+                            {
+                                "roleName": "💶client",
+                                "allow": 1082368,
+                                "deny": 805533777
+                            },
+                            {
+                                "roleName": "Client_Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Dévelopeur Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "repl",
+                                "allow": 0,
+                                "deny": 2112
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🤖•𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞-𝐛𝐨𝐭",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "general",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🤖bot",
+                                "allow": 2097152,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "👑owner",
+                                "allow": 2097152,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Vérification",
+                                "allow": 2097152,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🤝amis des owner",
+                                "allow": 2097152,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Nos Bot",
+                                "allow": 2097152,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Dévelopeur Bot",
+                                "allow": 2097152,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "[+] Celestial Bot",
+                                "allow": 2097152,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "ServerStats",
+                                "allow": 2097152,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Uptime Robot",
+                                "allow": 2097152,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Giveaways-Bot",
+                                "allow": 2097152,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2097152,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Vérification-Bot",
+                                "allow": 2097152,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "――[ 𝐍𝐨𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧]――",
+                                "allow": 2097152,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🤖 • Notif Nouveau Bot",
+                                "allow": 2097152,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "NQN",
+                                "allow": 2097152,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Membre",
+                                "allow": 2097152,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "💶client",
+                                "allow": 2097152,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Server Booster",
+                                "allow": 2097152,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Staff Ticket",
+                                "allow": 2097152,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Client-SB",
+                                "allow": 2097152,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🤝 • Notif Partenariat",
+                                "allow": 2097152,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "๖̶ζ͜͡ND Protect",
+                                "allow": 2097152,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "carl-bot",
+                                "allow": 2097152,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 2097152,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "👑",
+                                "allow": 2097152,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "repl",
+                                "allow": 2097152,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🎥 • Notif Vidéo",
+                                "allow": 2097152,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Client_Bot",
+                                "allow": 2097152,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "DraftBot",
+                                "allow": 2097152,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Choppa Ticket",
+                                "allow": 2097152,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "VIP",
+                                "allow": 2097152,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Aboner Youtube",
+                                "allow": 2097152,
+                                "deny": 2112
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "🎫ticket",
+                "permissions": [
+                    {
+                        "roleName": "Membre",
+                        "allow": 1049600,
+                        "deny": 0
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1049600
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "🎫•𝐭𝐢𝐜𝐤𝐞𝐭",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🎫ticket",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Membre",
+                                "allow": 1049600,
+                                "deny": 805763152
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1049600
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "ticket-ijumpintears",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🎫ticket",
+                        "topic": "1102609197197172786",
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "Staff Ticket",
+                                "allow": 68608,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "ticket-1087103831009144882",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🎫ticket",
+                        "topic": "1087103831009144882",
+                        "permissions": [
+                            {
+                                "roleName": "Staff Ticket",
+                                "allow": 68608,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "ticket-muined5",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🎫ticket",
+                        "topic": "958030497311764531",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "Staff Ticket",
+                                "allow": 68608,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "ticket-max294",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🎫ticket",
+                        "topic": "1128282143399870535",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "Staff Ticket",
+                                "allow": 68608,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "ticket-vxnospy",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🎫ticket",
+                        "topic": "1118326248586891296",
+                        "permissions": [
+                            {
+                                "roleName": "Staff Ticket",
+                                "allow": 68608,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "ticket-fares6540",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🎫ticket",
+                        "topic": "724209320648245318",
+                        "permissions": [
+                            {
+                                "roleName": "Staff Ticket",
+                                "allow": 68608,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "ticket-clustmanager",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🎫ticket",
+                        "topic": "914398806186029088",
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "Staff Ticket",
+                                "allow": 68608,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "closed-ticket-su_u9",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🎫ticket",
+                        "topic": "1140312581073010718",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "Staff Ticket",
+                                "allow": 3072,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "🤖bot",
+                "permissions": [
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    },
+                    {
+                        "roleName": "Membre",
+                        "allow": 1024,
+                        "deny": 871824209
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1024
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "🤖•𝐨𝐚𝐮𝐭𝐡-𝐛𝐨𝐭",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🤖bot",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Membre",
+                                "allow": 1024,
+                                "deny": 871824209
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🤖•𝐨𝐚𝐮𝐭𝐡-𝐛𝐨𝐭-𝐅𝐫𝐞𝐞",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🤖bot",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "Membre",
+                                "allow": 1024,
+                                "deny": 871824209
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🤖•𝐛𝐨𝐭-𝐨𝐩𝐞𝐧-𝐬𝐨𝐮𝐫𝐜𝐞",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🤖bot",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Membre",
+                                "allow": 1024,
+                                "deny": 871824209
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🤖𝐮𝐩𝐭𝐢𝐦𝐞-𝐛𝐨𝐭",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🤖bot",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Membre",
+                                "allow": 1024,
+                                "deny": 871824209
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🟢•𝐡é𝐛𝐞𝐫𝐠𝐞𝐮𝐫-𝐫𝐞𝐩𝐥𝐢𝐭",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🤖bot",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "Membre",
+                                "allow": 1024,
+                                "deny": 871824209
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1048640
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            }
+        ],
+        "others": [
+            {
+                "type": "voice",
+                "name": "✅• membre: 269",
+                "bitrate": 63688,
+                "userLimit": 0,
+                "parent": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 1024,
+                        "deny": 1050624
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    }
+                ]
+            },
+            {
+                "type": "voice",
+                "name": "🤖• Bots: 11",
+                "bitrate": 64000,
+                "userLimit": 0,
+                "parent": null,
+                "permissions": [
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 1024,
+                        "deny": 1050624
+                    }
+                ]
+            }
+        ]
+    },
+    "roles": [
+        {
+            "name": "👑",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 8,
+            "mentionable": false,
+            "position": 30,
+            "isEveryone": false
+        },
+        {
+            "name": "Nos Bot",
+            "color": "#e61313",
+            "hoist": true,
+            "permissions": 8,
+            "mentionable": false,
+            "position": 29,
+            "isEveryone": false
+        },
+        {
+            "name": "🤖bot",
+            "color": "#1abc9c",
+            "hoist": true,
+            "permissions": 2146959359,
+            "mentionable": false,
+            "position": 28,
+            "isEveryone": false
+        },
+        {
+            "name": "👑owner",
+            "color": "#000c14",
+            "hoist": true,
+            "permissions": 8,
+            "mentionable": false,
+            "position": 27,
+            "isEveryone": false
+        },
+        {
+            "name": "Staff Ticket",
+            "color": "#9b59b6",
+            "hoist": true,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 21,
+            "isEveryone": false
+        },
+        {
+            "name": "💶client",
+            "color": "#009bff",
+            "hoist": true,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 20,
+            "isEveryone": false
+        },
+        {
+            "name": "Client-SB",
+            "color": "#f1c40f",
+            "hoist": true,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 19,
+            "isEveryone": false
+        },
+        {
+            "name": "VIP",
+            "color": "#f1c40f",
+            "hoist": true,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 18,
+            "isEveryone": false
+        },
+        {
+            "name": "🤝amis des owner",
+            "color": "#ff0000",
+            "hoist": true,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 17,
+            "isEveryone": false
+        },
+        {
+            "name": "Dévelopeur Bot",
+            "color": "#c27c0e",
+            "hoist": true,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 16,
+            "isEveryone": false
+        },
+        {
+            "name": "Membre",
+            "color": "#e67e22",
+            "hoist": true,
+            "permissions": 330753,
+            "mentionable": false,
+            "position": 15,
+            "isEveryone": false
+        },
+        {
+            "name": "Vérification",
+            "color": "#0072bc",
+            "hoist": true,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 14,
+            "isEveryone": false
+        },
+        {
+            "name": "――[ 𝐍𝐨𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧]――",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 13,
+            "isEveryone": false
+        },
+        {
+            "name": "🤝 • Notif Partenariat",
+            "color": "#9b59b6",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 12,
+            "isEveryone": false
+        },
+        {
+            "name": "🎥 • Notif Vidéo",
+            "color": "#3498db",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 11,
+            "isEveryone": false
+        },
+        {
+            "name": "🤖 • Notif Nouveau Bot",
+            "color": "#f1c40f",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 10,
+            "isEveryone": false
+        },
+        {
+            "name": "Aboner Youtube",
+            "color": "#fa0000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 9,
+            "isEveryone": false
+        },
+        {
+            "name": "Client_Bot",
+            "color": "#9b59b6",
+            "hoist": true,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 8,
+            "isEveryone": false
+        },
+        {
+            "name": "muet",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 7,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "createdTimestamp": 1692050781970,
+    "guildID": "1128706921382297670",
+    "id": "1140768404018429961",
+    "iconURL": "https://cdn.discordapp.com/icons/1128706921382297670/da67b37c45e2d1887d2bbd47967c0eb0.webp"
+}

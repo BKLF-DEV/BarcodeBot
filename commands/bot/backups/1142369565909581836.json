@@ -1,0 +1,465 @@
+{
+    "name": "FREE NITRO | +100 preuve",
+    "region": "deprecated",
+    "verificationLevel": "NONE",
+    "explicitContentFilter": "DISABLED",
+    "defaultMessageNotifications": "ALL",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "Salons textuels",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1024
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "🖐•welcome",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Salons textuels",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "member",
+                                "allow": 1024,
+                                "deny": 174144
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "💌•invite",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Salons textuels",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "member",
+                                "allow": 1024,
+                                "deny": 174144
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🎁•free-nitro-bot",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Salons textuels",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 34880
+                            },
+                            {
+                                "roleName": "member",
+                                "allow": 1024,
+                                "deny": 174144
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🎫•claim-reward",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Salons textuels",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "member",
+                                "allow": 1024,
+                                "deny": 174144
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🧾•proof",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Salons textuels",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "member",
+                                "allow": 1024,
+                                "deny": 174144
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 313408
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🎉•reward",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Salons textuels",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "member",
+                                "allow": 1024,
+                                "deny": 174144
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🎊•giveaways",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Salons textuels",
+                        "topic": "",
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "member",
+                                "allow": 1024,
+                                "deny": 174144
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "PArtner",
+                "permissions": [
+                    {
+                        "roleName": "member",
+                        "allow": 1024,
+                        "deny": 0
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1024
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "🔞•nsfw-server",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "PArtner",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Bots",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "Giveaways-Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Staff",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "member",
+                                "allow": 1024,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 3136
+                            },
+                            {
+                                "roleName": "Admin",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Dm me for nitro",
+                                "allow": 0,
+                                "deny": 2112
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "Ticket",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1049600
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "ticket-fno—strike",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Ticket",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Staff",
+                                "allow": 35840,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "ticket-vidox_44000",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Ticket",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Staff",
+                                "allow": 35840,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            }
+        ],
+        "others": [
+            {
+                "type": "text",
+                "name": "te",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1024
+                    },
+                    {
+                        "roleName": "ZORO (KING OF HELL)",
+                        "allow": 3072,
+                        "deny": 0
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    }
+                ],
+                "messages": [],
+                "isNews": false
+            }
+        ]
+    },
+    "roles": [
+        {
+            "name": "Dm me for nitro",
+            "color": "#050505",
+            "hoist": true,
+            "permissions": 8,
+            "mentionable": false,
+            "position": 9,
+            "isEveryone": false
+        },
+        {
+            "name": "Admin",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 8,
+            "mentionable": false,
+            "position": 8,
+            "isEveryone": false
+        },
+        {
+            "name": "Staff",
+            "color": "#0062a2",
+            "hoist": true,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 7,
+            "isEveryone": false
+        },
+        {
+            "name": "member",
+            "color": "#3498db",
+            "hoist": true,
+            "permissions": 3136,
+            "mentionable": false,
+            "position": 6,
+            "isEveryone": false
+        },
+        {
+            "name": "Bots",
+            "color": "#2ecc71",
+            "hoist": true,
+            "permissions": 8,
+            "mentionable": false,
+            "position": 5,
+            "isEveryone": false
+        },
+        {
+            "name": "ZORO (KING OF HELL)",
+            "color": "#ff0000",
+            "hoist": false,
+            "permissions": 2146959359,
+            "mentionable": false,
+            "position": 4,
+            "isEveryone": false
+        },
+        {
+            "name": "muet",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 2,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 104320577,
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "createdTimestamp": 1692432528713,
+    "guildID": "1142206204609826836",
+    "id": "1142369565909581836",
+    "iconURL": "https://cdn.discordapp.com/icons/1142206204609826836/a82242660fb86d0eeeb11560eb2c0769.webp"
+}
